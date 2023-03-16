@@ -14,7 +14,7 @@
     object-fit: cover;
   }
   .news h3{
-    font-size: 17px;
+    font-size: 18px;
     padding-bottom: 10px;
     color: #0F1419;
     font-weight: bold;
@@ -503,8 +503,8 @@
   }
 
   p.comment-text{
-    line-height: 1.5rem !important;
-    font-size: 14px !important;
+    /* line-height: 1.5rem !important; */
+    font-size: 15px !important;
     margin-top: -12px !important;
   }
   .view_more a i{
@@ -532,7 +532,9 @@
     /* border-bottom: none; */
   }
   .personalized h3{
-    font-weight: 600; font-size:17px;margin-bottom: 15px;
+    font-weight: 600; 
+    font-size:18px;
+    margin-bottom: 15px;
   }
   .personalized small a{
     color: #556572;
@@ -1147,16 +1149,11 @@ i.search-icon{
     display: none;
     
 }
-  .details p.first::first-letter {
-    float: left;
-    /* font-family: Georgia, serif; */
-    font-size: 75px;
-    padding: 3px;
-  }
+
 
   .details p{
-    line-height: 1.8;
-    font-size: 15px;
+    /* line-height: 1.8; */
+    font-size: 16px;
   }
   .reply {
     display: none;
