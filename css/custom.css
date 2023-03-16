@@ -377,6 +377,10 @@
     .w-tags .card {
       min-height: 300px;
    }
+   .az-logo img{
+    height: 35px;
+    top: -2px; }
+
    .related img{
     height:150px;
   }
