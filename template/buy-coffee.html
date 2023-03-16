@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Meta -->
+    <meta name="description" content="PyLine UNCENCORED UNFILTERED UNALTERED INFORMATION">
+    <meta name="author" content="PyLine">
+
+    <title>PyLine - Connecting the world, one post at a time. </title>
+
+    <!-- vendor css -->
+    <link href="../lib/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="../lib/typicons.font/typicons.css" rel="stylesheet">
+    <link href="../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" >
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.1/emojionearea.min.css" />
+
+
+    <!-- azia CSS -->
+    <link rel="stylesheet" href="../css/light.css">
+    <link rel="stylesheet" href="../css/custom.css">
+
+  </head>
+  <body>
+
+    <div class="az-header az-header-sticky">
+      <div class="container">
+        <div class="az-header-left">
+          <a href="index.html" class="az-logo text-capitalize"><img src="../img/logo1.png" alt="Logo"></a>
+          <a href="" id="azMenuShow" class="az-header-menu-icon d-lg-none"><span></span></a>
+        </div>
+        <div class="az-header-menu">
+          <div class="az-header-menu-header">
+            <a href="index.html" class="az-logo text-capitalize"><img src="../img/logo1.png" alt="Logo"></a>
+            <a href="" class="close">&times;</a>
+          </div>
+          <ul class="nav">
+            <li class="nav-item active show">
+              <a href="index.html" class="nav-link"><i class="typcn typcn-home"></i> Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#trending" class="nav-link"><i class="typcn typcn-chart-line-outline"></i>Trending </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="" class="nav-link with-sub"><i class="typcn typcn-document-text"></i>Topics</a>
+              <div class="az-menu-sub">
+                <div class="container">
+                  <div>
+                    <nav class="nav">
+                      <a class="nav-link" href="topics.html">Politics</a>
+                      <a class="nav-link" href="topics.html">Money & Finance</a>
+                      <a class="nav-link" href="topics.html">Marriage & Relationships</a>
+                      <a class="nav-link" href="topics.html" >Technology & Innovation</a>
+                      <a class="nav-link" href="topics.html" >Health & Fitness</a>
+                      <a class="nav-link" href="topics.html" >Sports</a>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="jobs.html" class="nav-link"><i class="typcn typcn-briefcase"></i>Jobs</a>
+            </li>
+          </ul>
+        </div>
+        <div class="az-header-right">
+          <button class="signin-btn btn" data-toggle="modal" data-target="#newPostModal">
+            <i class="fas fa-plus"></i> New Post
+          </button>
+          <div class="az-header-notification">
+            <div class="search-wrapper">
+              <div class="icon-wrap">
+                <i class="fas fa-search search-icon"></i>
+              </div>
+              <div class="search-form">
+                <form action="search-page.html">
+                  <input type="text" placeholder="Search...">
+                  <button type="submit"><i class="fas fa-search"></i></button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="az-header-notification icon-wrap">
+            <a href="buy-coffee.html#support"><i class="fas fa-hand-holding-usd"></i></a>
+          </div>
+          <div class="dropdown az-header-notification">
+            <a href="" class="new"><i class="typcn typcn-bell"></i></a>
+            <div class="dropdown-menu">
+              <div class="az-dropdown-header mg-b-20 d-sm-none">
+                <a href="" class="az-header-arrow"><i class="icon ion-md-arrow-back"></i></a>
+              </div>
+              <h6 class="az-notification-title">Notifications</h6>
+              <p class="az-notification-text">You have 2 unread notification</p>
+              <div class="az-notification-list">
+                <div class="media new">
+                  <div class="az-img-user"><img src="../img/faces/face2.jpg" alt=""></div>
+                  <div class="media-body">
+                    <p>Congratulate <strong>Socrates Itumay</strong> for work anniversaries</p>
+                    <span>Mar 15 12:32pm</span>
+                  </div>
+                </div>
+                <div class="media new">
+                  <div class="az-img-user online"><img src="../img/faces/face3.jpg" alt=""></div>
+                  <div class="media-body">
+                    <p><strong>Joyce Chua</strong> just created a new blog post</p>
+                    <span>Mar 13 04:16am</span>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="dropdown-footer"><a href="">Load more notifications</a></div>
+            </div>
+          </div>
+          <div class="dropdown register az-profile-menu">
+            <a href="" class="signin-btn btn">
+              <i class="fas fa-user-circle"></i> Sign in
+            </a>
+            <div class="dropdown-menu">
+              <div class="az-dropdown-header d-sm-none">
+                <a href="" class="az-header-arrow"><i class="icon ion-md-arrow-back"></i></a>
+              </div>
+                <div class="az-card-signin">
+                  <hs1><img src="../img/logo1.png" alt="Logo"></sh1>
+                  <hr>
+                  <div class="az-signin-header">
+                    <p>Welcome back! Please sign in to continue</p>
+                    <form action="index.html">
+                      <div class="form-group">
+                        <label>Email</label>
+                        <input type="text" class="form-control" placeholder="Enter your email">
+                      </div>
+                      <div class="form-group">
+                        <label>Password</label>
+                        <input type="password" class="form-control" placeholder="Enter your password">
+                      </div>
+                      <button class="btn btn-az-primary btn-block">Sign In</button>
+                    </form>
+                  </div>
+                  <div class="az-signin-footer">
+                    <p><a href="">Forgot password?</a></p>
+                    <p>Don't have an account? <a style="text-decoration:underline" href="register.html">Create an Account</a></p>
+                    <a class="d-block d-sm-none" style="text-decoration:underline" href="index.html">Back home</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+
+          <div class="dropdown az-profile-menu">
+            <a href="" class="az-img-user"><img src="../img/timo.jpg" alt=""></a>
+            <div class="dropdown-menu">
+              <div class="az-dropdown-header d-sm-none">
+                <a href="" class="az-header-arrow"><i class="icon ion-md-arrow-back"></i></a>
+              </div>
+              <a href="profile.html" class="dropdown-item"><i class="typcn typcn-user-outline"></i> My Profile</a>
+              <a href="" class="dropdown-item" data-toggle="modal" data-target="#changePasswordModal"><i class="typcn typcn-lock-closed"></i>Change Password</a>
+              <a href="" class="dropdown-item" data-toggle="modal" data-target="#newPostModal"><i class="typcn typcn-edit"></i> New Post</a>
+              <a href="login.html" class="dropdown-item"><i class="typcn typcn-power-outline"></i> Sign Out</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="az-content az-content-dashboard">
+        <div class="row mx-0">
+            <div class="az-content-breadcrumb">
+              <span><a href="index.html">Home</a> </span>
+              <span>ABOUT US</span>
+            </div>
+            <div class="coffee-now">
+                <div class="row pt-3">
+                    <div class="col-lg-7 col-md-6">
+                        <div class="card">
+                            <img class="card-img-top" height="300" style="object-fit: cover;max-width:200" src="../img/timo.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <p class="card-text">
+                                Hello, I'm Sayed Rafeeq from Hyderabad, India.
+                                I'm an Art & Design Enthusiast.
+                                You can find some of my works are featured on Codepen: codepen.io/syedrafeeq
+                                My Identity Profile @ GitHubPages: sayedrafeeq.github.io 
+                              </p>
+                              <p class="card-text">
+                                Hello, I'm Sayed Rafeeq from Hyderabad, India.
+                                I'm an Art & Design Enthusiast.
+                                You can find some of my works are featured on Codepen: codepen.io/syedrafeeq
+                                My Identity Profile @ GitHubPages: sayedrafeeq.github.io 
+                              </p>
+                              <p class="card-text">
+                                Hello, I'm Sayed Rafeeq from Hyderabad, India.
+                                I'm an Art & Design Enthusiast. and togehteheh  hehtetheh 
+                                Hello, I'm Sayed Rafeeq from Hyderabad, India.
+                                I'm an Art & Design Enthusiast. and togehteheh  hehtetheh
+                                Hello, I'm Sayed Rafeeq from Hyderabad, India.
+                                I'm an Art & Design Enthusiast. and togehteheh  hehtetheh
+                                Hello, I'm Sayed Rafeeq from Hyderabad, India.
+                                I'm an Art & Design Enthusiast.
+                              </p>
+                            </div>
+                        </div>
+                        <h4 style="font-size:14px;font-weight:bold" class="mt-4">RECENT SUPPORTERS</h4>
+                        <div id="myCarousel" class="carousel supporters slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="d-flex">
+                                          <img class="card-img-top" src="../img/donate.png" alt="Profile Image">
+                                          <div class="py-2">
+                                              <a href="" class="donator" > Xtsn Name</a><span> donated. Thank you! <br> 👏👏👏</span>
+                                              <p class="">"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                      <div class="d-flex">
+                                        <img class="card-img-top" src="../img/donate.png" alt="Profile Image">
+                                        <div class="py-2">
+                                            <a href="" class="donator" > Donor Name</a><span> donated. Thank you! <br> 👏👏👏</span>
+                                            <p class="">"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
+                                        </div>
+                                      </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="d-flex">
+                                          <img class="card-img-top" src="../img/donate.png" alt="Profile Image">
+                                          <div class="py-2">
+                                              <a href="" class="donator" > Mike Name</a><span> donated. Thank you! <br> 👏👏👏</span>
+                                              <p class="">"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                      <div class="d-flex">
+                                        <img class="card-img-top" src="../img/donate.png" alt="Profile Image">
+                                        <div class="py-2">
+                                            <a href="" class="donator" > Donor Name</a><span> donated. Thank you! <br> 👏👏👏</span>
+                                            <p class="">"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
+                                        </div>
+                                      </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+                          </div>
+                      </div>
+                    <div class="col-md-6 col-lg-5 support" id="support">
+                        <h4 style="font-size:14px;font-weight:bold" class="mt-4">SUPPORT US</h4>
+                        <p>PyLine incurs high maintance costs to keep the site up and running 24/7. Your support is greatly appreciated!</p>
+                        <div class="card" style="background-color: #FFF9F5;">
+                            <div class="card-body">
+                                <form id="main-form">
+                                    <div class="d-flex">
+                                        <div class="ml-auto form-group text-dark">
+                                            <img src="../img/donate.png" width="90" height="70" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="top-most d-flex">
+                                        <div class="form-group">
+                                        <a style="font-size:15px;" class="form-text">Choose your preferred currency</a>
+                                        <select class="form-control" id="currency-select">
+                                            <option value="$" selected>$ - US dollars</option>
+                                            <option value="€">€ - Euro</option>
+                                            <option value="£">£ - Pound</option>
+                                            <option value="UGX">UGX - Uganda shillings</option>
+                                            <option value="KES">KES - Kenya shillings</option>
+                                            <option value="RWF">RWF - Rwandan franc</option>
+                                        </select>
+                                        </div>
+                                        <div class="form-group pl-4">
+                                        <a style="font-size:15px;" class="form-text">How much would you like to donate?</a>
+                                        <input class="form-control" type="number" min="1" value="5" id="amount-input" onblur="checkAmount()">
+                                        </div>
+                                    </div>
+                                    <div class="pt-2 form-group text">
+                                        <input type="text" style="background-color: #F3F3F3"  class="form-control" id="name" placeholder="Name (Optional)">
+                                    </div>
+                                    <div class="pt-2 form-group">
+                                        <textarea style="background-color: #F3F3F3" class="form-control" id="exampleFormControlTextarea1" placeholder="Say something... (Optional)" rows="3"></textarea>
+                                    </div>
+                                    <div class="form-check text-dark">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">
+                                            Make this message private 
+                                            <span data-toggle="tooltip" data-placement="left" title="This message will visible to you and pyline admin only">
+                                                <i class="fas fa-info-circle"></i>
+                                            </span>
+                                        </label>
+                                    </div>
+                                    
+                                    <div class="payment-methods pt-4">
+                                        <hr>
+                                        <div class="method">
+                                          <input type="radio" id="credit-card" name="payment" value="credit-card">
+                                          <label for="credit-card">
+                                            <img src="../img/credit-card.avif" alt="Credit Card">
+                                            <span>Credit Card</span>
+                                          </label>
+                                        </div>
+                                        <div class="method">
+                                          <input type="radio" id="paypal" name="payment" value="paypal">
+                                          <label for="paypal">
+                                            <img src="../img/paypal.png" alt="Paypal">
+                                            <span>Paypal</span>
+                                          </label>
+                                        </div>
+                                        <div class="method mm">
+                                          <input type="radio" id="mobile-money" name="payment" value="mobile-money">
+                                          <label for="mobile-money">
+                                            <img src="../img/mobiile-money.jpeg" alt="Mobile Money">
+                                            <span>Mobile Money</span>
+                                          </label>
+                                        </div>
+                                      </div>
+                                      <div id="error-msg" style="display:none;color:red;">Please select a payment method</div>
+
+                                    <button type="button" id="last-button" class="btn py-2 w-100 paycofee my-5">Support with <span id="display-amount">5</span><span class="pl-1 currency">$</span></button>
+                                </form>
+                            </div>
+                        </div>                          
+                    </div>
+                </div>
+              </div>
+        </div>
+        </div>
+    </div>
+                              <!-- paypal modal -->
+                              <div class="modal fade submit-form" id="paypalpyt" style="backdrop-filter: blur(10px); background-color: rgba(255, 255, 255, 0.5);" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="termsLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" style="margin: auto;">
+                                  <div class="modal-content">
+                                    <div class="modal-header border-0" >
+                                        <img src="../img/paypal.png" width="90" height="70" alt="">
+                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
+                                    </div>
+                                    <div class="modal-body px-4 pb-5">
+                                        <form>
+                                            <div class="form-group">
+                                              <label for="email">Your PayPal email address</label>
+                                              <input type="email" value="email" style="height: 40px;" class="form-control" id="email" required placeholder="Enter your email address">
+                                            </div>
+                                            <button type="submit" class="w-100 py-2 mt-3 pay-now btn btn-primary">Pay Now</button>
+                                            <p style="font-size:12px;color:#4E4E4E" class="text-muted pt-4 text-center">Payment secured by  . You’ll be taken to a thank you page after the payment. Terms and Privacy.</p>
+                                        </form>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <!-- mobile money modal -->
+                              <div class="modal fade submit-form" id="mobile" style="backdrop-filter: blur(10px); background-color: rgba(255, 255, 255, 0.5);" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="termsLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" style="margin: auto;">
+                                  <div class="modal-content">
+                                    <div class="modal-header border-0" >
+                                        <img src="../img/mobile-money.png" width="90" height="70" alt="">
+                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
+                                    </div>
+                                    <div class="modal-body px-4 pb-5">
+                                        <form>
+                                            <div class="form-group">
+                                                <label for="mobile-money-select">Select Mobile Money Provider:</label>
+                                                <select class="form-control" id="mmp" style="height: 40px;">
+                                                  <option value="airtel-money">Airtel Money</option>
+                                                  <option value="mtn-mobile-money">MTN Mobile Money</option>
+                                                  <option value="vodafone-mobile-money">Vodafone Mobile Money</option>
+                                                </select>
+                                              </div>
+                                              
+                                            <div class="form-group">
+                                              <label for="mobile-number">Mobile Number: <span data-toggle="tooltip" data-placement="left" title="Please omit the preceding zero on your phone number">
+                                                <i style="font-size: 12px;cursor:pointer" class="fas fa-info-circle"></i>
+                                            </span></label>
+                                              <div class="input-group">
+                                                <div class="input-group-prepend" id="mobile_no">
+                                                    <select class="custom-select" id="country-code-select">
+                                                        <option value="+254" selected>KEN +254</option>
+                                                        <option value="+256">UGA +256</option>
+                                                        <option value="+250">RWA +250</option>
+                                                    </select>
+                                                </div>
+                                                
+                                                <input type="text" class="form-control" id="mobile_no mobile-number" placeholder="Phone number (eg 706567480)">
+                                              </div>
+                                            </div>
+                                            <div class="form-check text-dark">
+                                              <input type="checkbox" id="save_no" class="form-check-input">
+                                              <label class="form-check-label" for="exampleCheck1">
+                                                Save this number for future transactions
+                                              </label>
+                                            </div>
+                                            <button type="submit" class="py-2 pay-now w-100 
+                                            btn mt-4">Pay Now</button>
+                                            <p style="font-size:12px;color:#4E4E4E" class="text-muted pt-4 text-center">Payment secured by  . You’ll be taken to a thank you page after the payment. Terms and Privacy.</p>
+                                        </form>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- credit card payment -->
+                                <div class="modal fade submit-form" id="credit" style="backdrop-filter: blur(10px); background-color: rgba(255, 255, 255, 0.5);" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="termsLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" style="margin: auto;">
+                                        <div class="modal-content">
+                                        <div class="modal-header border-0" >
+                                            <img src="../img/credit-card.avif" width="90" height="70" alt="">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body px-4 pb-5">
+                                            <form>
+                                                <div class="form-group">
+                                                  <label for="card-number">Card Number</label>
+                                                  <input type="text" id="credit_no" class="form-control" placeholder="Enter your card number">
+                                                </div>
+                                                <div class="form-group">
+                                                  <label for="card-name">Name on Card</label>
+                                                  <input type="text" id="card_name" class="form-control" placeholder="Enter your name as it appears on your card">
+                                                </div>
+                                                <div class="form-group">
+                                                  <div class="row">
+                                                    <div class="col-lg-6">
+                                                      <label for="card-expiry">Expiration Date</label>
+                                                      <div class="input-group">
+                                                        <input type="text" id="exp_date" class="form-control" placeholder="MM / YY">
+                                                        <div class="input-group-append">
+                                                          <span class="input-group-text"><i class="fa fa-calendar"></i></span>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                      <label for="card-cvc">CVC</label>
+                                                      <div class="input-group">
+                                                        <input type="text" id="cvc" class="form-control" placeholder="Enter the 3-digit code on the back of your card">
+                                                        <div class="input-group-append">
+                                                          <span class="input-group-text"><i class="fa fa-lock"></i></span>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <button type="submit" class="py-2 pay-now w-100 btn mt-4">Pay Now</button>
+                                                    <p style="font-size:12px;color:#4E4E4E" class="text-muted pt-4 text-center">Payment secured by  . You’ll be taken to a thank you page after the payment. Terms and Privacy.</p>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+<script>
+  // for buy coffee page
+    const currencySelect = document.getElementById('currency-select');
+    const amountInput = document.getElementById('amount-input');
+    const displayAmount = document.getElementById('display-amount');
+    const currency = document.querySelector('.currency');
+    
+    // Set default values based on selected currency option
+    currencySelect.addEventListener('change', () => {
+      const selectedCurrency = currencySelect.value;
+      switch (selectedCurrency) {
+        case '$':
+          amountInput.value = 5;
+          displayAmount.textContent = amountInput.value;
+          break;
+        case 'UGX':
+          amountInput.value = 500;
+          displayAmount.textContent = amountInput.value;
+          break;
+        case 'RWF':
+          amountInput.value = 300;
+          displayAmount.textContent = amountInput.value;
+          break;
+        case 'KES':
+          amountInput.value = 50;
+          displayAmount.textContent = amountInput.value;
+          break;
+        case '€':
+          amountInput.value = 5;
+          displayAmount.textContent = amountInput.value;
+          break;
+        case '£':
+          amountInput.value = 5;
+          displayAmount.textContent = amountInput.value;
+          break;
+      }
+      currency.textContent = selectedCurrency;
+    });
+    
+    // Update displayAmount on amountInput value change
+    amountInput.addEventListener('input', () => {
+      displayAmount.textContent = amountInput.value;
+    });
+</script>
+
+    <!-- footer -->
+    <div class="pb-3">
+        <div style="border-bottom:1px solid #767b7c; width:100%"></div>
+        <div class="footer-links pt-3">
+        <span class="d-block float-sm-right"><a href="">Copyright  &copy;<script>document.write(new Date().getFullYear());</script> PyLine. All Rights Reserved</a> </span>
+        <span class="text-center">
+            <a href="buy-coffee.html" class="bold pr-2" target="_blank">About us</a>
+            <a href="" class="bold pr-2" data-toggle="modal" data-target="#advertise">Advertise with us</a>
+            <a href="" class="bold pr-2" data-toggle="modal" data-target="#report">Report an issue</a>
+            <a href="" class="pr-2" data-toggle="modal" data-target="#terms">Terms & Conditions</a>
+            <a href="" class="pr-2" data-toggle="modal" data-target="#privacy">Privacy Policy</a>
+        </span>
+        </div>
+    </div>
+
+    <!-- js links -->
+    <script src="../lib/jquery/jquery.min.js"></script>
+    <script src="../lib/popper.js/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+    <script src="../lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../js/azia.js"></script>
+    <script src="../js/post.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.1/emojionearea.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            var option = ''; // declare the option variable outside both functions
+          
+            // hide error message by default
+            $('#error-msg').hide();
+            
+            // handle click event for last button
+            $('#last-button').on('click', function() {
+              var paymentOptions = document.getElementsByName("payment");
+              var isSelected = false;
+              
+              for (var i = 0; i < paymentOptions.length; i++) {
+                if (paymentOptions[i].checked) {
+                  isSelected = true;
+                  option = i.toString(); // update the value of option
+                  break;
+                }
+              }
+              if (!isSelected) {
+                $('#error-msg').show();
+                return false;
+              } else {
+                $('#error-msg').hide();
+                if (option == '0') {
+                  $('#credit').modal('show');
+                } else if (option == '1') {
+                  $('#paypalpyt').modal('show');
+                } else if (option == '2') {
+                  $('#mobile').modal('show');
+                } else {
+                  alert("Internal server error. Please inform the admin about this issue!");
+                }
+              }
+            });
+          
+            // handle form submission in PayPal modal
+            $('.submit-form form').on('submit', function(event) {
+              event.preventDefault();
+              if (option == '0'){ 
+                // get input values
+                var credit_no = $('#credit_no').val();
+                var card_name = $('#card_name').val();
+                var exp_date = $('#exp_date').val();
+                var cvc = $('#cvc').val();
+                $('#main-form').append('<input type="hidden" name="credit_no" value="' + credit_no + '">').submit();
+                $('#main-form').append('<input type="hidden" name="card_name" value="' + card_name + '">').submit();
+                $('#main-form').append('<input type="hidden" name="exp_date" value="' + exp_date + '">').submit();
+                $('#main-form').append('<input type="hidden" name="cvc" value="' + cvc + '">').submit();
+          
+                $('#credit').modal('hide');
+              } 
+              else if (option == '1') { 
+                // get email input value
+                var email = $('#email').val();
+                $('#main-form').append('<input type="hidden" name="email" value="' + email + '">').submit();
+                $('#paypalpyt').modal('hide');
+              } 
+              else if (option == '2') { 
+                // get input values
+                var mmp = $('#mmp').val();
+                var mobile_no = $('#mobile_no').val();
+                var save_no = $('#save_no').val();
+                $('#main-form').append('<input type="hidden" name="mmp" value="' + mmp + '">').submit();
+                $('#main-form').append('<input type="hidden" name="mobile_no" value="' + mobile_no + '">').submit();
+                $('#main-form').append('<input type="hidden" name="save_no" value="' + save_no + '">').submit();
+                $('#mobile').modal('hide');
+              } 
+              else {
+                alert("Internal server error. Please inform the admin about this issue!");
+              }
+            });
+          });
+          
+          $(document).ready(function(){
+            $('#myCarousel').carousel({
+              interval: 1000 // Change this value to adjust the interval between slides
+            });
+            console.log("Casrousel working");
+          });
+          
+    </script>
+</body>
+</html>

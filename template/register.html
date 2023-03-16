@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-90680653-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-90680653-2');
+    </script>
+    
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Meta -->
+    <meta name="description" content="Responsive Bootstrap 4 Dashboard Template">
+    <meta name="author" content="BootstrapDash">
+
+    <title>PyLine - Connecting the world, one post at a time. </title>
+
+    <!-- vendor css -->
+    <link href="../lib/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="../lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="../lib/typicons.font/typicons.css" rel="stylesheet">
+    <link href="../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" >
+
+
+    <!-- azia CSS -->
+    <link rel="stylesheet" href="../css/light.css">
+
+  </head>
+  <body class="az-body">
+    
+    <div class="az-signup-wrapper">
+      
+      <div class="az-column-signup-left">
+        <div class="ml-auto">
+          <img src="../img/people.svg" alt="">
+        </div>
+        <div>
+          <h1 class="az-logo"><img src="../img/logo1.png" alt="Logo"></h1>
+          <h5>Connecting the world, one post at a time.</h5>
+          <p>We are excited to invite you to join our vibrant community of creators, thinkers, and doers! Whether you're looking to connect with like-minded individuals, share your ideas and experiences, or simply stay informed about the latest news and trends, PyLine is the perfect platform for you.</p>
+          <p>Sign up today and start exploring all that PyLine has to offer!</p>
+          <!-- <a href="index.html" class="btn btn-outline-indigo">Learn More</a> -->
+        </div>
+      </div><!-- az-column-signup-left -->
+      <div class="az-column-signup">
+        <h1 class="az-logo"><img src="../img/logo1.png" alt="Logo"></h1>
+        <h1 class="firsth1" style="color: #12A4E2;">Get started</h1>
+        <h4 class="secondh4"  style="color: #12A4E2;">Get started</h4>
+        <div class="az-signup-header">
+          <h6>It's free to signup and only takes a minute.</h6>
+          <form action="profile.html" class="pt-3">
+              <div class="form-group">
+                <label>Name</label>
+                <input type="text" class="form-control" placeholder="Your name">
+              </div>
+              
+            <div class="form-group">
+              <label>Email</label>
+              <input type="text" class="form-control" placeholder="Your email" >
+            </div>
+            
+            <div class="row">
+              <div class="col-sm-6 form-group">
+                <label>Password</label>
+                <input type="password" class="form-control">
+              </div>
+              <div class="col-sm-6 form-group">
+                <label>confirm Password</label>
+                <input type="password" class="form-control">
+              </div>
+            </div>
+            <div class="pb-3">
+            <a href="">User Preferances (Optional) <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+            <div class="optional pt-2 d-none">
+              <div class="form-group">
+                <label>Profile picture</label>
+                <input type="file" class="form-control-file" placeholder="Upload">
+              </div>
+              <div class="form-group">
+                <label>Birthday </label>
+                <input type="date" class="form-control" placeholder="" >
+              </div>
+              <div class="form-group">
+                <label for="about">Bio</label>
+                  <textarea class="form-control" placeholder="Brielfy tell us about yourself..." id="about" rows="3"></textarea>
+              </div>
+            </div>
+          </div>
+            <button class="btn btn-az-primary btn-block">Create Account</button>
+            <!-- <p class="text-center pt-3">OR</p> -->
+            <!-- <div class="row mt-0">
+              <div class="col-12"><button class="btn btn-block"><i class="fab fa-google"></i> Signup with Google</button></div>
+            </div> -->
+          </form>
+        </div><!-- az-signup-header -->
+        <div class="az-signup-footer pt-2">
+          <p>Already have an account? <a style="text-decoration:underline" href="login.html">Sign In</a></p>
+          <a class="d-block d-sm-none" style="text-decoration:underline" href="index.html">Back home</a>
+        </div><!-- az-signin-footer -->
+      </div><!-- az-column-signup -->
+    </div><!-- az-signup-wrapper -->
+
+    <script src="../lib/jquery/jquery.min.js"></script>
+    <script src="../lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="../js/azia.js"></script>
+    <script>
+     // Get the anchor tag element
+const toggleBtn = document.querySelector('a[href=""]');
+
+// Get the optional information div element
+const optionalInfo = document.querySelector('.optional');
+
+// Add an event listener to the anchor tag for click events
+toggleBtn.addEventListener('click', function(event) {
+  event.preventDefault();
+  
+  // Toggle the "d-none" class to show or hide the optional information div
+  optionalInfo.classList.toggle('d-none');
+  
+  // Toggle the Font Awesome icon class to change the direction of the arrow icon
+  const icon = toggleBtn.querySelector('i');
+  if (icon.classList.contains('fa-angle-down')) {
+    icon.classList.remove('fa-angle-down');
+    icon.classList.add('fa-angle-up');
+  } else {
+    icon.classList.remove('fa-angle-up');
+    icon.classList.add('fa-angle-down');
+  }
+});
+
+    </script>
+  </body>
+</html>

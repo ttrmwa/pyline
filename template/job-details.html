@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Meta -->
+    <meta name="description" content="PyLine UNCENCORED UNFILTERED UNALTERED INFORMATION">
+    <meta name="author" content="PyLine">
+
+    <title>PyLine - Connecting the world, one post at a time. </title>
+
+    <!-- vendor css -->
+    <link href="../lib/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="../lib/typicons.font/typicons.css" rel="stylesheet">
+    <link href="../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" >
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.1/emojionearea.min.css" />
+
+
+    <!-- azia CSS -->
+    <link rel="stylesheet" href="../css/light.css">
+    <link rel="stylesheet" href="../css/custom.css">
+
+  </head>
+  <body>
+
+    <div class="az-header az-header-sticky">
+      <div class="container">
+        <div class="az-header-left">
+          <a href="index.html" class="az-logo text-capitalize"><img src="../img/logo1.png" alt="Logo"></a>
+          <a href="" id="azMenuShow" class="az-header-menu-icon d-lg-none"><span></span></a>
+        </div>
+        <div class="az-header-menu">
+          <div class="az-header-menu-header">
+            <a href="index.html" class="az-logo text-capitalize"><img src="../img/logo1.png" alt="Logo"></a>
+            <a href="" class="close">&times;</a>
+          </div>
+          <ul class="nav">
+            <li class="nav-item active show">
+              <a href="index.html" class="nav-link"><i class="typcn typcn-home"></i> Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#trending" class="nav-link"><i class="typcn typcn-chart-line-outline"></i>Trending </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="" class="nav-link with-sub"><i class="typcn typcn-document-text"></i>Topics</a>
+              <div class="az-menu-sub">
+                <div class="container">
+                  <div>
+                    <nav class="nav">
+                      <a class="nav-link" href="topics.html">Politics</a>
+                      <a class="nav-link" href="topics.html">Money & Finance</a>
+                      <a class="nav-link" href="topics.html">Marriage & Relationships</a>
+                      <a class="nav-link" href="topics.html" >Technology & Innovation</a>
+                      <a class="nav-link" href="topics.html" >Health & Fitness</a>
+                      <a class="nav-link" href="topics.html" >Sports</a>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="jobs.html" class="nav-link"><i class="typcn typcn-briefcase"></i>Jobs</a>
+            </li>
+          </ul>
+        </div>
+        <div class="az-header-right">
+          <button class="signin-btn btn" data-toggle="modal" data-target="#newPostModal">
+            <i class="fas fa-plus"></i> New Post
+          </button>
+          <div class="az-header-notification">
+            <div class="search-wrapper">
+              <div class="icon-wrap">
+                <i class="fas fa-search search-icon"></i>
+              </div>
+              <div class="search-form">
+                <form action="search-page.html">
+                  <input type="text" placeholder="Search...">
+                  <button type="submit"><i class="fas fa-search"></i></button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="az-header-notification icon-wrap">
+            <a href="buy-coffee.html#support"><i class="fas fa-hand-holding-usd"></i></a>
+          </div>
+          <div class="dropdown az-header-notification">
+            <a href="" class="new"><i class="typcn typcn-bell"></i></a>
+            <div class="dropdown-menu">
+              <div class="az-dropdown-header mg-b-20 d-sm-none">
+                <a href="" class="az-header-arrow"><i class="icon ion-md-arrow-back"></i></a>
+              </div>
+              <h6 class="az-notification-title">Notifications</h6>
+              <p class="az-notification-text">You have 2 unread notification</p>
+              <div class="az-notification-list">
+                <div class="media new">
+                  <div class="az-img-user"><img src="../img/faces/face2.jpg" alt=""></div>
+                  <div class="media-body">
+                    <p>Congratulate <strong>Socrates Itumay</strong> for work anniversaries</p>
+                    <span>Mar 15 12:32pm</span>
+                  </div>
+                </div>
+                <div class="media new">
+                  <div class="az-img-user online"><img src="../img/faces/face3.jpg" alt=""></div>
+                  <div class="media-body">
+                    <p><strong>Joyce Chua</strong> just created a new blog post</p>
+                    <span>Mar 13 04:16am</span>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="dropdown-footer"><a href="">Load more notifications</a></div>
+            </div>
+          </div>
+          <div class="dropdown register az-profile-menu">
+            <a href="" class="signin-btn btn">
+              <i class="fas fa-user-circle"></i> Sign in
+            </a>
+            <div class="dropdown-menu">
+              <div class="az-dropdown-header d-sm-none">
+                <a href="" class="az-header-arrow"><i class="icon ion-md-arrow-back"></i></a>
+              </div>
+                <div class="az-card-signin">
+                  <hs1><img src="../img/logo1.png" alt="Logo"></sh1>
+                  <hr>
+                  <div class="az-signin-header">
+                    <p>Welcome back! Please sign in to continue</p>
+                    <form action="index.html">
+                      <div class="form-group">
+                        <label>Email</label>
+                        <input type="text" class="form-control" placeholder="Enter your email">
+                      </div>
+                      <div class="form-group">
+                        <label>Password</label>
+                        <input type="password" class="form-control" placeholder="Enter your password">
+                      </div>
+                      <button class="btn btn-az-primary btn-block">Sign In</button>
+                    </form>
+                  </div>
+                  <div class="az-signin-footer">
+                    <p><a href="">Forgot password?</a></p>
+                    <p>Don't have an account? <a style="text-decoration:underline" href="register.html">Create an Account</a></p>
+                    <a class="d-block d-sm-none" style="text-decoration:underline" href="index.html">Back home</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+
+          <div class="dropdown az-profile-menu">
+            <a href="" class="az-img-user"><img src="../img/timo.jpg" alt=""></a>
+            <div class="dropdown-menu">
+              <div class="az-dropdown-header d-sm-none">
+                <a href="" class="az-header-arrow"><i class="icon ion-md-arrow-back"></i></a>
+              </div>
+              <a href="profile.html" class="dropdown-item"><i class="typcn typcn-user-outline"></i> My Profile</a>
+              <a href="" class="dropdown-item" data-toggle="modal" data-target="#changePasswordModal"><i class="typcn typcn-lock-closed"></i>Change Password</a>
+              <a href="" class="dropdown-item" data-toggle="modal" data-target="#newPostModal"><i class="typcn typcn-edit"></i> New Post</a>
+              <a href="login.html" class="dropdown-item"><i class="typcn typcn-power-outline"></i> Sign Out</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="az-content az-content-dashboard">
+        <div class="row mx-0">
+            <div class="az-content-breadcrumb">
+              <!-- <span><a href="index.html"class="d-non d-sm-none">Home</a> </span> -->
+              <span><a href="jobs.html">Jobs</a></span>
+              <span>Software developer</span>
+            </div>
+        </div>
+          <hr>
+        <div class="row">
+            <div class="col-lg-3 col-md-4 other-jobs">
+                <div class="card border-0 pt-2" id="other-jobs">
+                  <div style="overflow-y: scroll;">
+                    <a href="">
+                        <div class="card mb-4 p-3 new-job">
+                            <h5 class=""><i  class="fas fa-briefcase"></i> Monitoring & Evaluation Officer - HawkEye technologies</h5>
+                            <p class=""><i class="fas fa-map-marker-alt"></i>Kampala, Uganda</p>
+                            <small><i class="fas fa-calendar-alt"></i> Deadline: 23rd Dec, 2022</small>
+                        </div>
+                      </a>
+                      <a href="">
+                        <div class="card mb-4 p-3 new-job">
+                          <h5 class=""><i  class="fas fa-briefcase"></i> Monitoring & Evaluation Officer - HawkEye technologies</h5>
+                          <p class=""><i class="fas fa-map-marker-alt"></i>Kampala, Uganda</p>
+                          <small><i class="fas fa-calendar-alt"></i> Deadline: 23rd Dec, 2022</small>
+                      </div>
+                      </a>
+                    <a href="">
+                      <div class="card mb-4 p-3 new-job">
+                        <h5 class=""><i  class="fas fa-briefcase"></i> Monitoring & Evaluation Officer - HawkEye technologies</h5>
+                        <p class=""><i class="fas fa-map-marker-alt"></i>Kampala, Uganda</p>
+                        <small><i class="fas fa-calendar-alt"></i> Deadline: 23rd Dec, 2022</small>
+                    </div>
+                      </a>
+                      <a href="">
+                        <div class="card mb-4 p-3 new-job">
+                          <h5 class=""><i  class="fas fa-briefcase"></i> Monitoring & Evaluation Officer - HawkEye technologies</h5>
+                          <p class=""><i class="fas fa-map-marker-alt"></i>Kampala, Uganda</p>
+                          <small><i class="fas fa-calendar-alt"></i> Deadline: 23rd Dec, 2022</small>
+                      </div>
+                      </a>
+                    
+                      
+                      <a href="">
+                        <div class="card mb-4 p-3 new-job">
+                          <h5 class=""><i  class="fas fa-briefcase"></i> Monitoring & Evaluation Officer - HawkEye technologies</h5>
+                          <p class=""><i class="fas fa-map-marker-alt"></i>Kampala, Uganda</p>
+                          <small><i class="fas fa-calendar-alt"></i> Deadline: 23rd Dec, 2022</small>
+                      </div>
+                      </a>
+                  </div>
+                </div>
+              </div>
+            <div class="col-md-8 col-lg-9 p-4" class="jobfull" style="background-color: #F8F9FA;">
+                <div class="card pt-4 p-3" id="job-details">
+                    <div class="d-block d-sm-flex job">
+                        <div class="job-header">
+                            <h3 style="color:#202124;font-weight:600"> Head of Partner Advisory and Activation, Google Cloud  </h3>
+                            <ul class="d-md-flex icon-lists pl-0 flex-wrap text-capitalize ff-open-sans">
+                                <li class="mr-md-4">
+                                    <a href=""> <i class="fas fa-building mr-2"></i> Liberty Life Insurance</a> 
+                                </li>
+                                <li class="mr-md-4">
+                                    <i class="fas fa-map-marker-alt mr-2"></i> Los Angeles
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="share-icon ml-auto">
+                          <i class="fas fa-share-alt"></small> </i>
+                          <div class="share-icons">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-whatsapp"></i></a>
+                          </div>
+                        </div>
+                        <!-- <a class="ml-auto d-noned pt-4">Copy job link <i class="fas fa-link"></i> </a> -->
+                    </div>
+                    <hr>
+                    
+                      <div class="qualifications mb-4">
+                        <h4 class="mb-3">Qualifications</h4>
+                        <ul>
+                          <li>Bachelor's degree in Computer Science or related field</li>
+                          <li>3+ years of experience in software development</li>
+                          <li>Strong knowledge of JavaScript, HTML, CSS, and jQuery</li>
+                        </ul>
+                      </div>
+                      <div class="description mb-4">
+                        <h4 class="mb-3">Job Description</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et sapien massa. Nulla facilisi. Nulla et risus ac tellus egestas vulputate. Praesent venenatis, risus ac laoreet ultrices, velit velit aliquam urna, ut suscipit nunc nulla sed leo. </p>
+                      </div>
+                      <div class="responsibilities mb-4">
+                        <h4 class="mb-3">Responsibilities</h4>
+                        <ul>
+                          <li>Collaborate with cross-functional teams to define, design, and ship new features</li>
+                          <li>Build reusable code and libraries for future use</li>
+                          <li>Ensure the technical feasibility of UI/UX designs</li>
+                        </ul>
+                      </div>
+                      <div class="application-section">
+                        <h4 class="mb-3">Application Process</h4>
+                        <ol>
+                          <li>Submit your application and resume online through our website.</li>
+                          <li>Our team will review your application and reach out to you if you are selected for an interview.</li>
+                          <li>If you are selected for an interview, you will be contacted to schedule a time and date.</li>
+                          <li>Following the interview, we will make a decision and notify you of the outcome.</li>
+                        </ol>
+                        <p>Please note that we receive a high volume of applications and may not be able to respond to every applicant. We appreciate your interest in our company!</p>
+                      </div>
+                      <div class="row">
+                        <a href="#" class="mr-4 ml-auto apply-btn btn btn-primary">Apply <i style="font-size: 14px;" class="fas fa-external-link-alt"></i></a>
+                      </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- footer -->
+    <div class="pb-3">
+        <div style="border-bottom:1px solid #767b7c; width:100%"></div>
+        <div class="footer-links pt-3">
+        <span class="d-block float-sm-right"><a href="">Copyright  &copy;<script>document.write(new Date().getFullYear());</script> PyLine. All Rights Reserved</a> </span>
+        <span class="text-center">
+            <a href="buy-coffee.html" class="bold pr-2" target="_blank">About us</a>
+            <a href="" class="bold pr-2" data-toggle="modal" data-target="#advertise">Advertise with us</a>
+            <a href="" class="bold pr-2" data-toggle="modal" data-target="#report">Report an issue</a>
+            <a href="" class="pr-2" data-toggle="modal" data-target="#terms">Terms & Conditions</a>
+            <a href="" class="pr-2" data-toggle="modal" data-target="#privacy">Privacy Policy</a>
+        </span>
+        </div>
+    </div>
+
+    <!-- js links -->
+    <script src="../lib/jquery/jquery.min.js"></script>
+    <script src="../lib/popper.js/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+    <script src="../lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../js/azia.js"></script>
+    <script src="../js/post.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.1/emojionearea.min.js"></script>
+    <!-- setting maximum colum of other jobs -->
+    <script>
+        var height = document.getElementById("job-details").offsetHeight;
+        console.log("The height of the div is " + height + " pixels.");
+        document.getElementById("other-jobs").style.maxHeight = height + "px";
+    </script>
+    <script>
+      $(document).ready(function() {
+        $('.share-icon').click(function() {
+          $('.share-icons').toggle();
+        });
+      });
+    </script>
+    
+  </body>
+</html>
