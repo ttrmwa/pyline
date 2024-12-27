@@ -25,5 +25,5 @@ This project is still under development, but the basic display for the functiona
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/pyline.git
+git clone https://github.com/ttrmwa/pyline.git
 cd pyline
